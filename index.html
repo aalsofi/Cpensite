@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
@@ -23,13 +23,13 @@
   <li><a href="#">Home</a></li>
   <li><a href="#main">About me</a></li>
   <li><a href="#flink">Contact</a></li>
-  <li><a href="#flink">More info</a></li>
+  <li><a href="#flink">More information</a></li>
     </ul>
   </nav></div>
 <main id="main">
-  <img class="prot" src="https://media.istockphoto.com/id/1142192548/vector/man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=DUKuRxK9OINHXt3_4m-GxraeoDDlhNuCbA9hp6FotFE=" alt="Protitat photo">
+  <img id="ph" class="prot" src="https://media.istockphoto.com/id/1142192548/vector/man-avatar-profile-male-face-silhouette-or-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=DUKuRxK9OINHXt3_4m-GxraeoDDlhNuCbA9hp6FotFE=" alt="Protitat photo">
 <p class="p-500"> my name Ahmed Al-soufi I 
-  was born in jeddah in 1948 I lived there for 35 years or more ia m married  all my family rasied in jeddah too I was working there as a web developer for 12 years I have 2 sibling i am in uk since 2 years I join to code for future to improve myself in web development and desigining 
+  was born in jeddah in 1984 I lived there for 35 years or more ia m married  all my family rasied in jeddah too I was working there as a web developer for 12 years I have 2 sibling i am in uk since 2 years I join to code for future to improve myself in web development and desigining 
 I am ready to next chellange an I hope to be a part of code for future comunity and me new friends also this will help in future to get a decent job  thanks </p>
 
 
@@ -47,6 +47,13 @@ I am ready to next chellange an I hope to be a part of code for future comunity 
 <!-- partial -->
   <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
 <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+<script>
+document.getElementById('ph').addEventListener('click', (event) => {
+  let element_ph = document.getElementById('ph');
+  element_ph.style.visibility = (false) ? 'visible' : 'hidden';
 
+});
+'#ff0000';
+</script>
 </body>
 </html>
